@@ -1,0 +1,50 @@
+.checkout{
+    display: flex;
+    padding: 20px;
+    background-color: #fff;
+    justify-content: space-between;
+    height: max-content;
+}
+.checkout__ad {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.checkout__title{
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+.checkout__product{
+    display: flex;
+     margin-bottom:20px;
+     margin-top: 20px;
+}
+.checkout__rightProduct{
+    display: flex;
+  
+    flex-direction: column;
+}
+.checkout__product>img{
+    object-fit: contain;
+    width: 180px;
+    height:  180px; 
+}
+.checkout__rating{
+    display: flex;
+}
+.checkout__rating>p >svg.MuiSvgIcon-root {
+    color: gold !important;
+}
+.checkout__productContainer{
+    display: flex;
+    flex-direction: column;
+}
+.checkout__Removebutton{
+    background: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e23 #846a29;
+  border-radius: 3px;
+  color: #111;
+ 
+}
